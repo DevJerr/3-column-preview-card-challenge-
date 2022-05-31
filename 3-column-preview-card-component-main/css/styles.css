@@ -1,0 +1,110 @@
+body {
+  background-image: url("images/background.png");
+}
+
+
+/* Containers  */
+
+.body-container {
+  background-color: #f0f0f0;
+  margin: 200px;
+  padding: 100px;
+  filter: drop-shadow(8px 3px 10px lightgrey);
+  color: #fff;
+  text-align: left;
+}
+
+.option {
+  padding: 5% 5% 5%;
+  width: 280px;
+}
+
+
+/* Contents */
+
+
+h1 {
+  font-family: 'Big Shoulders Display' ;
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+p {
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  font-weight: light;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Sedans */
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedan-btn{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Lexend Deca';
+    color: #efb77c;
+    font-size: 16px;
+    padding: 15px 23px 15px 23px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+
+/* SUVs */
+
+.suv {
+  background-color:hsl(184, 100%, 22%);
+}
+
+.suv-btn {
+  -webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family:'Lexend Deca';
+color: #006970;
+font-size: 16px;
+padding: 15px 23px 15px 23px;
+border: solid #ffffff 2px;
+text-decoration: none;
+}
+
+.btn:hover {
+text-decoration: none;
+};
+
+/* Luxury */
+
+.luxury {
+  background-color: hsl(179, 100%, 13%) !important;
+}
+
+.luxury-btn {
+  -webkit-border-radius: 28;
+ -moz-border-radius: 28;
+ border-radius: 28px;
+ font-family: 'Lexend Deca';
+ color: #004141;
+ font-size: 16px;
+ padding: 15px 28px 15px 28px;
+ border: solid #ffffff 2px;
+ text-decoration: none;
+}
+
+.btn:hover {
+ text-decoration: none;
+}
+
+
+/* Buttons */
+
+.btns {
+  margin: 30px 0 0;
+}
